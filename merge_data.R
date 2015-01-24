@@ -9,4 +9,4 @@ for (i in 2:20) {
 data <- unique(data)
 data <- data[sample(1:nrow(data), 15000,replace=FALSE),]
 
-write.csv(data, "random_crossref_dois_2013.csv", row.names=FALSE, fileEncoding="utf-8")
+write.csv(data, "random_crossref_dois_2013.csv", row.names=FALSE, fileEncoding="UTF-8")
